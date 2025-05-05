@@ -1,0 +1,99 @@
+@import "button.css";
+@import "navbar.css";
+@import "footer.css";
+*{
+    margin: 0;
+}
+
+#contact {
+    height: 100%;
+    background:     rgb(113, 97, 73) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 24px;
+  }
+  
+  #contact h1 {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    background:   rgb(184, 159, 121) ;
+    width: 100%;
+    height: auto;
+    border: 1px solid #0f0e0e;
+    border-radius: 16px;
+    padding: 24px;
+  }
+  
+  .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    border: 1px solid #121111;
+    border-radius: 6px;
+    padding: 8px 14px;
+  }
+  
+  .form-group textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+  }
+  
+  .fullname {
+    display: flex;
+    gap: 10px;
+  }
+   
+  .footer {
+    background: #161515;
+    color: #ffffff;
+    padding: 5px;
+   
+  }
+
+  .primary-button{
+    background: #1a1919;
+    padding: 10px 18px;
+    border: 1px solid transparent;
+    color: #ffffffce;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  .primary-button:hover {
+    background: #adacac;
+  }
+
+  
+  
+  .footer p {
+    text-align: center;
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+  
+    #contact {
+      display: block;
+    }
+  
+    .fullname {
+      flex-direction: column;
+      gap: 14px;
+    }
+  }
+
+  

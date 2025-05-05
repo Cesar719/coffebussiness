@@ -1,0 +1,17 @@
+@import "navabar.css";
+@import "card.css";
+@import "button.css";
+@import "services.css";
+@import "footer.css";
+
+*{
+    margin: 0;
+}
+
+body{
+  background-color: rgb(113, 97, 73) ;
+}
+
+  footer{
+   margin-top: 500px;
+  }
